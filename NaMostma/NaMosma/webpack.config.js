@@ -4,7 +4,7 @@ module.exports = {
     entry: {
         site: [
             './wwwroot/js/site.js',
-            './scripts/Hello.ts'
+            './scripts/Main.tsx'
         ]
     },
     output: {
@@ -18,6 +18,10 @@ module.exports = {
                 loader: 'ts-loader',
                 exclude: /node_modules/,
             },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
         ]
     },
     resolve: {
