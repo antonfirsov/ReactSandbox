@@ -4,14 +4,18 @@ import * as ReactDOM from "react-dom";
 
 import { Hello } from "./components/Hello";
 
-function renderHello(elementId: string): void {
-    ReactDOM.render(
-        <Hello text="béla"/>,
-        document.getElementById(elementId)
-    );
-}
+import { drawDemoChart } from "./components/ChartDemo"
 
-renderHello("root");
+drawDemoChart("root");
+
+//function renderHello(elementId: string): void {
+//    ReactDOM.render(
+//        <Hello text="béla"/>,
+//        document.getElementById(elementId)
+//    );
+//}
+
+//renderHello("root");
 
 export class Main {
     

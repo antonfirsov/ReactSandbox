@@ -5,11 +5,17 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "@types/chartjs": "0.0.31",
+    "@types/highcharts": "^5.0.11",
     "@types/react": "^16.0.22",
     "@types/react-dom": "^16.0.3",
+    "@types/rickshaw": "0.0.28",
     "awesome-typescript-loader": "^3.3.0",
+    "chartjs": "^0.3.24",
+    "highcharts": "^6.0.2",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
+    "rickshaw": "^1.6.3",
     "source-map-loader": "^0.2.3",
     "ts-loader": "^3.1.1",
     "typescript": "^2.6.1",
@@ -19,5 +25,6 @@
     "AfterBuild": [
       "build"
     ]
-  }
+  },
+  "dependencies": {}
 }

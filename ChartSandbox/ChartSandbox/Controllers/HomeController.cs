@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace TodoPlz.Controllers
+namespace ChartSandbox.Controllers
 {
     public class HomeController : Controller
     {
