@@ -4,14 +4,18 @@ import * as ReactDOM from "react-dom";
 
 import { Hello } from "./components/Hello";
 
-function renderHello(elementId: string): void {
-    ReactDOM.render(
-        <Hello text="béla"/>,
-        document.getElementById(elementId)
-    );
-}
+import { initTodo } from './components/App'
 
-renderHello("root");
+//function renderHello(elementId: string): void {
+//    ReactDOM.render(
+//        <Hello text="béla"/>,
+//        document.getElementById(elementId)
+//    );
+//}
+
+//renderHello("root");
+
+initTodo("root");
 
 export class Main {
     

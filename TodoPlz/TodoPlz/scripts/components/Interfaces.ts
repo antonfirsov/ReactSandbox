@@ -1,10 +1,10 @@
-﻿interface ITodo {
+﻿export interface ITodo {
     id: string;
     title: string;
     completed: boolean;
 }
 
-interface ITodoItemProps {
+export interface ITodoItemProps {
     key: string;
     todo: ITodo;
     editing?: boolean;
@@ -15,18 +15,18 @@ interface ITodoItemProps {
     onToggle: () => void;
 }
 
-interface ITodoItemState {
+export interface ITodoItemState {
     editText:string;
 }
 
-interface ITodoFooterProps {
+export interface ITodoFooterProps {
     completedCount: number;
     onClearCompleted: any;
     nowShowing: string;
     count: number;
 }
 
-interface ITodoModel {
+export interface ITodoModel {
     key: any;
     todos: ITodo[];
     onChanges: any[];
@@ -41,12 +41,12 @@ interface ITodoModel {
     clearCompleted();
 }
 
-interface IAppProps {
+export interface IAppProps {
     model: ITodoModel;
 }
 
 // Defines the interface of the state of the App component
-interface IAppState {
+export interface IAppState {
     editing?: string;
     nowShowing?: string;
 }

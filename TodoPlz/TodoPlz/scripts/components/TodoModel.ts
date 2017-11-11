@@ -1,7 +1,9 @@
-﻿import 'Interfaces';
-import './Utils';
-import "./Utils";
-import { Utils } from './Utils';
+﻿import { Utils } from './Utils';
+
+import { Constants } from './Constants';
+import * as Interfaces from "./Interfaces"
+import ITodoModel = Interfaces.ITodoModel;
+import ITodo = Interfaces.ITodo;
 
 export class TodoModel implements ITodoModel {
 
