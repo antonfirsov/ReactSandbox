@@ -9,6 +9,8 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'wwwroot/dist/')
+        , libraryTarget: 'var',
+        library: 'Main'
     },
     module: {
         rules: [
