@@ -1,2 +1,1 @@
-﻿
-alert("szasz!");
+﻿alert("hello from tsx!");
