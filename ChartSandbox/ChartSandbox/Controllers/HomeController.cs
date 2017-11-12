@@ -12,5 +12,10 @@ namespace ChartSandbox.Controllers
         {
             return View();
         }
+
+        public IActionResult Test()
+        {
+            return Content("Hello from controller response!");
+        }
     }
 }

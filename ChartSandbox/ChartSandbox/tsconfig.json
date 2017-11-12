@@ -8,8 +8,11 @@
     "target": "es5",
     "module": "commonjs",
     "jsx": "react",
-    "moduleResolution": "node"
-    //,"compileOnSave": true
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2016"
+    ]
   },
   "exclude": [
     "node_modules",

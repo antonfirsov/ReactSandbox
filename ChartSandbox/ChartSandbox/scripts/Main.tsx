@@ -3,8 +3,11 @@
 import * as ReactDOM from "react-dom";
 
 import { Hello } from "./components/Hello";
+import { HelloAjax } from "./components/HelloAjax"
 
 import { drawDemoChart } from "./components/ChartDemo"
+
+HelloAjax.renderToElement("test");
 
 drawDemoChart("root");
 
